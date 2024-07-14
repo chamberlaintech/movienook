@@ -1,0 +1,22 @@
+.about-section {
+    padding: 4.5rem 0;
+}
+
+.about-container {
+    width: var(--small-width);
+    max-width: var(--full-width);
+    margin: 0 auto;
+}
+
+.about-container p {
+    margin-bottom: 6rem;
+}
+
+.about-container h1,
+.about-container h2 {
+    color: var(--primary-text)
+}
+
+.about-list {
+    margin: 2rem;
+}

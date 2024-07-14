@@ -1,0 +1,17 @@
+.error-section {
+    padding: 4.5rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.error-container {
+    width: var(--small-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.error-container h1 {
+    color: var(--primary-text);
+    line-height: 2.5rem;
+}

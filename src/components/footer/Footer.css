@@ -1,0 +1,10 @@
+.footer-section {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    justify-content: center;
+    background-color: var(--secondary-bg);
+    box-shadow: var(--shadow-secondary);
+    font-family: "Inter", sans-serif;
+    margin-top: auto;
+}

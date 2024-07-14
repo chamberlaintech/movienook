@@ -1,0 +1,32 @@
+.movie-section {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background: var(--secondary-bg);
+    border-radius: var(--main-br);
+    box-shadow: var(--shadow-primary);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.movie-section:hover {
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.15), inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    height: 25rem;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-top-left-radius: var(--main-br);
+    border-top-right-radius: var(--main-br);
+}
+
+.movie-details {
+    padding: 2rem;
+}
+
+.movie-details h2 {
+    margin-bottom: 3rem;
+}
+

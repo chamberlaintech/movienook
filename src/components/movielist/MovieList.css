@@ -1,0 +1,19 @@
+.movie-list-section {
+    padding: 4.5rem 0;
+}
+
+.movies-center {
+    width: var(--small-width);
+    margin: 0 auto;
+    max-width: var(--full-width);
+    display: grid;
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+}
+
+@media screen and (min-width: 576px) {
+    .movies-center {
+        grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+    }
+} 
+

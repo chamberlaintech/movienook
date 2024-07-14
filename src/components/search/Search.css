@@ -1,0 +1,40 @@
+.search-section {
+    padding: 4.5rem 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.search-form {
+    width: var(--min-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    background: var(--secondary-bg);
+    border-radius: var(--main-br);
+    box-shadow: var(--shadow-primary);
+    padding: 2.5rem 3rem;
+    text-transform: uppercase;
+}
+
+.form-control label {
+    display: block;
+    font-weight: bold;
+    letter-spacing: 0.275rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-control input {
+    width: 100%;
+    border: none;
+    border-color: transparent;
+    padding: 0.75rem;
+    outline: none;
+    border-radius: var(--main-br);
+    background: var(--primary-bg);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .search-form {
+        max-width: 90%;
+    }
+}

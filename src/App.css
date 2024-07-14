@@ -1,0 +1,125 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --primary-bg: #FFFFFF;
+    --secondary-bg: #F9F9F9;
+    --primary-text: #D90245;
+    --secondary-text: #202020;
+    --button-primary: #1a1a1a;
+    --button-secondary: #D90245;
+    --hover-primary: #000000;
+    --hover-secondary: #c2013d;
+    --shadow-primary: inset 0 0 10px rgba(0, 0, 0, 0.1),
+        inset 0 0 15px rgba(0, 0, 0, 0.05);
+    --shadow-secondary: inset 0 0 10px rgba(0, 0, 0, 0.1),
+        inset 0 0 15px rgba(0, 0, 0, 0.05);
+    --border-primary: 1px solid #E0E0E0;
+    --border-secondary: 1px solid #CCCCCC;
+    --small-width: 85vw;
+    --max-width: 40rem;
+    --full-width: 1170px;
+    --main-br: 10px;
+}
+
+
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--secondary-text);
+    line-height: 1.75rem;
+}
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+a {
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--hover-link);
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 2px;
+    font-family: "Vidaloka", serif;
+}
+
+p {
+    font-family: "Cantarell", sans-serif;
+    color: var(--secondary-text)
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.btn {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: var(--main-br);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.btn-details {
+    background-color: var(--button-secondary);
+}
+
+.btn-details:hover {
+    background-color: var(--hover-secondary);
+    transform: translateY(-2px);
+    color: #FFFFFF;
+}
+
+.btn-favorites {
+    background-color: var(--button-secondary);
+}
+
+.btn-favorites:hover {
+    background-color: var(--hover-secondary);
+    transform: translateY(-2px);
+    color: #FFFFFF;
+}
+
+.btn-back {
+    background-color: var(--button-primary);
+}
+
+.btn-back:hover {
+    background-color: var(--hover-primary);
+    transform: translateY(-2px);
+    color: #FFFFFF;
+}
